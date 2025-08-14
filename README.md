@@ -18,7 +18,7 @@ Proyecto desarrollado en Visual Studio para prácticas de diseño y maquetado we
 ```
 ejercicioMQ/
 │
-├── examen1.html
+├── index.html
 ├── estilo/
 │   └── (archivos CSS)
 ├── imagenes/
