@@ -1,0 +1,254 @@
+ * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+div{
+  margin-bottom: 1px;
+  padding: 10px;
+}
+
+.superior{
+  background-image: url("../imagenes/bannerGenerated.png");
+  background-position: center center;
+  background-size: cover;
+  padding: 1em 0em 1em;
+  height: 125px;
+}
+h1{
+  color:#ffffff;
+  font-size: 4em;
+  text-align: center;
+}
+
+.menuizq{
+	 background: #a2afaf;
+  float:left;
+  width: 20%;
+  margin-right: 1%;
+  height: 500px;
+}
+.galeria{
+background: #A9D0F5;
+  float: right;
+  width: 79%;
+  height: 500px;	
+}
+.inferior{
+	 background: #0174DF;
+  
+  height: 90px;
+  
+}
+
+.fila1{
+	height: 33%;
+}
+.fila2{
+	height: 33%;
+
+}
+
+.fila3{
+	height: 33%;
+}
+
+.f1imagen1{
+  background: #078fca;
+  float: left;
+  width: 33%;
+  align-items: center;
+  margin-right: 1%;
+  height: 100%;
+
+}
+.f1imagen2{
+  background: #078fca;
+  float: left;
+  width: 33%;
+  align-items: center;
+  margin-right: 1%;
+  height: 100%;
+
+}
+
+.f1imagen3{
+  background: #078fca;
+  float: right;
+  width: 32%;
+  align-items: center;
+  height: 100%;
+
+}
+
+.f2imagen1{
+  background: #078fca;
+  float: left;
+  width: 33%;
+  align-items: center;
+  margin-right: 1%;
+  height: 100%;
+
+}
+.f2imagen2{
+  background: #078fca;
+  float: left;
+  width: 33%;
+  align-items: center;
+  margin-right: 1%;
+  height: 100%;
+
+}
+
+.f2imagen3{
+  background: #078fca;
+  float: right;
+  width: 32%;
+  align-items: center;
+  height: 100%;
+}
+
+.f3imagen1{
+  background: #078fca;
+  float: left;
+  width: 33%;
+  align-items: center;
+  margin-right: 1%;
+  height: 100%;
+
+}
+.f3imagen2{
+  background: #078fca;
+  float: left;
+  width: 33%;
+  align-items: center;
+  margin-right: 1%;
+  height: 100%;
+
+}
+
+.f3imagen3{
+  background: #078fca;
+  float: right;
+  width: 32%;
+  align-items: center;
+  height: 100%;
+
+}
+
+.foot1-left{
+  width: 33%;
+  float: left;
+  margin-left: 0px;
+   margin-right: 0px;
+  }
+  
+  .foot2-center{
+    width:33%;
+    float: left;
+    margin-left: 0px;
+   margin-right: 0px;
+  }
+
+  .foot3-rigth{
+    width: 33%;
+   float: right;
+   margin-left: 0px;
+   margin-right: 0px;
+  }
+
+  .logos{
+    float:left;
+    width: 50%;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: left;
+    height: 100%
+  }
+
+  .firma{
+    float: right;
+    width:50%;
+    height: 100%;
+  }
+
+  h2{
+    color:#ffffff;
+    font-size: 1.5em;
+  }
+
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #a2afaf;
+}
+
+ li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+ 
+
+/* Clearfix */
+.medio:before, .medio:after { content: ""; display: table; }
+.medio:after { clear: both; }
+.medio { zoom: 1; }
+
+.galeria img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+@media screen and (max-width: 768px){
+  .menuizq{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  .menuizq ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .menuizq ul li{
+    flex: 1;
+  }
+  .menuizq ul li a{
+    text-align: center;
+    padding: 12px 0;
+  }
+
+  .galeria{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+  }
+
+  .fila1, .fila2, .fila3{
+    height: auto;
+  }
+
+  .fila1 > div,
+  .fila2 > div,
+  .fila3 > div{
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1%;
+    height: auto;
+  }
+}
